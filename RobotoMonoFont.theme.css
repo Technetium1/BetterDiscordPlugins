@@ -1,0 +1,6 @@
+//META{"name":"Roboto Mono Font","description":"Font replacement for BetterDiscord","author":"Tech#9952","version":"0.1","authorId":"185474680600133632"}*//{}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+* {
+	font-family: 'Roboto Mono' !important;
+}
