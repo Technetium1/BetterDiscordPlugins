@@ -1,1 +1,2 @@
 # BetterDiscordPlugins
+```%AppData%\BetterDiscord```
