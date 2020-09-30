@@ -1,0 +1,6 @@
+//META{"name":"Hack Font","description":"Font replacement for BetterDiscord","author":"Tech#9952","version":"0.1","authorId":"185474680600133632"}*//{}
+
+@import url('https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css');
+* {
+	font-family: 'Hack' !important;
+}
