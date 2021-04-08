@@ -1,0 +1,113 @@
+/*  Make Transparent */
+/*:root {*/
+/*    opacity: 0.96;*/
+/*}*/
+
+/* Settings for github.com/KillYoy/DiscordNight theme as of v0.8.15 */
+:root {
+	--User-List-Width: 225px;		/* 200px, Discord default = 240px */
+	--Channel-List-Width: 212px;	/* 196px, Discord default = 240px */
+	--Channel-Invite-Edit-Button: none;		/* flex = ON, none = OFF */
+	--Channel-Category-Invite-Button: none;	/* flex = ON, none = OFF */
+  --Search-List-Width: 650px;				/* 480px, Discord default = 418px */
+	--Titlebar-Help-Icon: none;		/* flex = ON, none = OFF */
+	--Chatbox-Gift-Button: none;	/* flex = ON, none = OFF */
+	--Chatbox-GIF-Button: flex;		/* flex = ON, none = OFF */
+	--Chatbox-Stickers-Button: flex;/* flex = ON, none = OFF */
+  --Chat-Emoji-Size: 34px;				/* 28px, Discord default = 22px */
+	--Chat-Emoji-Large-Size: 50px;			/* 32px, Discord default = 48px */
+	--Voice-Noise-Suppression: flex;/* flex = ON, none = OFF */
+	--Embed-Remove-Button: flex;	/* flex = ON, none = OFF */
+	--Context-Menu-Emoji-Toolbar: none;	/* flex = ON, none = OFF */
+	--Home-Store-Button: none;				/* block = ON, none = OFF */
+	--Home-Direct-Messages-Header: flex;	/* flex = ON with create DM Button, block = ON, none = OFF */
+	--Home-Close-DM-Button: none;			/* block = ON, none = OFF */
+	--Server-List-Add-Servers-Color: #7F7F7F;	/* #7F7F7F, transparent */
+	--Text-Channels-Capital-Letter: none;	/* uppercase, none */
+}
+
+:root {
+  --background-primary: #000000;
+  --bdfdb-blurple: #3A71C1;
+	--blurple: #3A71C1;
+	--bd-blue: #3A71C1;
+	--bd-blue-hover: #4585D8;
+	--bd-blue-active: #3268B7;
+}
+
+/* Hover and popout like RadialStatus */
+.da-container:hover>.da-layout>.da-avatar>.da-wrapper>svg>rect, .da-selected>.da-layout>.da-avatar>.da-wrapper>svg>rect {
+    z-index: 2000;
+    width: 68px;
+    height: 68px;
+    x: -14;
+    y: -18;
+    mask: url(#svg-mask-status-offline);
+}
+
+.da-container:hover>.da-layout>.da-avatar>.da-wrapper>svg>svg>rect, .da-selected>.da-layout>.da-avatar>.da-wrapper>svg>svg>rect {
+    z-index: 2000;
+    width: 52px;
+    height: 32px;
+    x: 0;
+    y: 0;
+    mask: url(#svg-mask-status-offline);
+}
+
+.da-container:hover>.da-layout>.da-avatar>.da-wrapper, .da-selected>.da-layout>.da-avatar>.da-wrapper {
+    height: 40px !important;
+}
+
+.da-container:hover>.da-layout>.da-avatar>.da-wrapper>svg, .da-selected>.da-layout>.da-avatar>.da-wrapper>svg {
+    mask: url(#svg-mask-avatar-status-round-32);
+    transform: scale(1.1);
+    border-radius: 100px;
+    width: 38px;
+    height: 38px;
+}
+
+.da-container:hover>.da-layout>.da-avatar>.da-wrapper>svg>foreignObject, .da-selected>.da-layout>.da-avatar>.da-wrapper>svg>foreignObject {
+    mask: unset !important;
+}
+
+.da-container:hover>.da-layout>.da-avatar>.da-wrapper>svg>foreignObject>img, .da-selected>.da-layout>.da-avatar>.da-wrapper>svg>foreignObject>img {
+    position: relative;
+    left: 3px;
+    border-radius: 100px;
+}
+
+/* underline roles in memberlist & DMs */
+.members-1998pB .membersGroup-v9BXpm, .private-channels header {
+    text-align: center;
+    overflow: visible;
+    margin-bottom: 10px;
+}
+
+.members-1998pB .membersGroup-v9BXpm::after, .private-channels header::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    border-bottom: 2px solid white;
+}
+
+.private-channels header::after {
+    padding-bottom: 10px;
+}
+
+/* underline labels in channellist */
+.containerDefault-3tr_sE {
+    padding-top: 1px;
+    padding-right: 8px;
+    padding-left: 15px;
+    padding: 0 0 2px 0;
+    height: auto;
+    margin: 2px 5px 2px 5px;
+    border-bottom: 2px solid white;
+}
+
+/* center channel names and push slightly left */
+.name-3l27Hl {
+    text-align: center;
+    padding-right: 20px;
+}
