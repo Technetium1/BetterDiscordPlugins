@@ -5,34 +5,34 @@
 
 /* Settings for github.com/KillYoy/DiscordNight theme as of v0.8.15 */
 :root {
-	--User-List-Width: 225px;		/* 200px, Discord default = 240px */
-	--Channel-List-Width: 212px;	/* 196px, Discord default = 240px */
-	--Channel-Invite-Edit-Button: none;		/* flex = ON, none = OFF */
-	--Channel-Category-Invite-Button: none;	/* flex = ON, none = OFF */
-  --Search-List-Width: 650px;				/* 480px, Discord default = 418px */
-	--Titlebar-Help-Icon: none;		/* flex = ON, none = OFF */
-	--Chatbox-Gift-Button: none;	/* flex = ON, none = OFF */
-	--Chatbox-GIF-Button: flex;		/* flex = ON, none = OFF */
-	--Chatbox-Stickers-Button: flex;/* flex = ON, none = OFF */
-  --Chat-Emoji-Size: 34px;				/* 28px, Discord default = 22px */
-	--Chat-Emoji-Large-Size: 50px;			/* 32px, Discord default = 48px */
-	--Voice-Noise-Suppression: flex;/* flex = ON, none = OFF */
-	--Embed-Remove-Button: flex;	/* flex = ON, none = OFF */
-	--Context-Menu-Emoji-Toolbar: none;	/* flex = ON, none = OFF */
-	--Home-Store-Button: none;				/* block = ON, none = OFF */
-	--Home-Direct-Messages-Header: flex;	/* flex = ON with create DM Button, block = ON, none = OFF */
-	--Home-Close-DM-Button: none;			/* block = ON, none = OFF */
-	--Server-List-Add-Servers-Color: #7F7F7F;	/* #7F7F7F, transparent */
-	--Text-Channels-Capital-Letter: none;	/* uppercase, none */
+    --User-List-Width: 225px;		/* 200px, Discord default = 240px */
+    --Channel-List-Width: 212px;	/* 196px, Discord default = 240px */
+    --Channel-Invite-Edit-Button: none;		/* flex = ON, none = OFF */
+    --Channel-Category-Invite-Button: none;	/* flex = ON, none = OFF */
+    --Search-List-Width: 650px;				/* 480px, Discord default = 418px */
+    --Titlebar-Help-Icon: none;		/* flex = ON, none = OFF */
+    --Chatbox-Gift-Button: none;	/* flex = ON, none = OFF */
+    --Chatbox-GIF-Button: flex;		/* flex = ON, none = OFF */
+    --Chatbox-Stickers-Button: flex;/* flex = ON, none = OFF */
+    --Chat-Emoji-Size: 34px;				/* 28px, Discord default = 22px */
+    --Chat-Emoji-Large-Size: 50px;			/* 32px, Discord default = 48px */
+    --Voice-Noise-Suppression: flex;/* flex = ON, none = OFF */
+    --Embed-Remove-Button: flex;	/* flex = ON, none = OFF */
+    --Context-Menu-Emoji-Toolbar: none;	/* flex = ON, none = OFF */
+    --Home-Store-Button: none;				/* block = ON, none = OFF */
+    --Home-Direct-Messages-Header: flex;	/* flex = ON with create DM Button, block = ON, none = OFF */
+    --Home-Close-DM-Button: none;			/* block = ON, none = OFF */
+    --Server-List-Add-Servers-Color: #7F7F7F;	/* #7F7F7F, transparent */
+    --Text-Channels-Capital-Letter: none;	/* uppercase, none */
 }
 
 :root {
-  --background-primary: #000000;
-  --bdfdb-blurple: #3A71C1;
-	--blurple: #3A71C1;
-	--bd-blue: #3A71C1;
-	--bd-blue-hover: #4585D8;
-	--bd-blue-active: #3268B7;
+    --background-primary: #000000;
+    --bdfdb-blurple: #3A71C1;
+    --blurple: #3A71C1;
+    --bd-blue: #3A71C1;
+    --bd-blue-hover: #4585D8;
+    --bd-blue-active: #3268B7;
 }
 
 /* Hover and popout like RadialStatus */
