@@ -3,27 +3,27 @@
 /*    opacity: 0.96;*/
 /*}*/
 
-/* Settings for github.com/KillYoy/DiscordNight theme as of v0.8.15 */
+/* Settings for github.com/KillYoy/DiscordNight theme as of v0.9.0 */
 :root {
-    --User-List-Width: 225px;		/* 200px, Discord default = 240px */
-    --Channel-List-Width: 212px;	/* 196px, Discord default = 240px */
-    --Channel-Invite-Edit-Button: none;		/* flex = ON, none = OFF */
-    --Channel-Category-Invite-Button: none;	/* flex = ON, none = OFF */
-    --Search-List-Width: 650px;				/* 480px, Discord default = 418px */
-    --Titlebar-Help-Icon: none;		/* flex = ON, none = OFF */
-    --Chatbox-Gift-Button: none;	/* flex = ON, none = OFF */
-    --Chatbox-GIF-Button: flex;		/* flex = ON, none = OFF */
-    --Chatbox-Stickers-Button: flex;/* flex = ON, none = OFF */
-    --Chat-Emoji-Size: 34px;				/* 28px, Discord default = 22px */
-    --Chat-Emoji-Large-Size: 50px;			/* 32px, Discord default = 48px */
-    --Voice-Noise-Suppression: flex;/* flex = ON, none = OFF */
-    --Embed-Remove-Button: flex;	/* flex = ON, none = OFF */
-    --Context-Menu-Emoji-Toolbar: none;	/* flex = ON, none = OFF */
-    --Home-Store-Button: none;				/* block = ON, none = OFF */
-    --Home-Direct-Messages-Header: flex;	/* flex = ON with create DM Button, block = ON, none = OFF */
-    --Home-Close-DM-Button: none;			/* block = ON, none = OFF */
-    --Server-List-Add-Servers-Color: #7F7F7F;	/* #7F7F7F, transparent */
-    --Text-Channels-Capital-Letter: none;	/* uppercase, none */
+	--User-List-Width: 250px;				/* 200px, Discord default = 240px */
+	--User-Popout-Width: 265px;				/* 210px, Discord default = 250px */
+	--Channel-List-Width: 235px;			/* 196px, Discord default = 240px */
+	--Channel-Invite-Edit-Button: none;		/* flex = ON, none = OFF */
+	--Channel-Category-Invite-Button: none;	/* flex = ON, none = OFF */
+	--Search-List-Width: 700px;				/* 480px, Discord default = 418px */
+	--Titlebar-Help-Icon: none;				/* flex = ON, none = OFF */
+	--Chatbox-Gift-Button: none;			/* flex = ON, none = OFF */
+	--Chatbox-GIF-Button: flex;				/* flex = ON, none = OFF */
+	--Chatbox-Stickers-Button: flex;		/* flex = ON, none = OFF */
+	--Chat-Emoji-Size: 1.75rem;				/* 1.75rem, Discord default = 1.375rem */
+	--Chat-Emoji-Large-Size: 4.5rem;		/* 2rem, Discord default = 3rem */
+	--Voice-Noise-Suppression: flex;		/* flex = ON, none = OFF */
+	--Embed-Remove-Button: flex;			/* flex = ON, none = OFF */
+	--Context-Menu-Emoji-Toolbar: none;		/* flex = ON, none = OFF */
+	--Home-Store-Button: none;				/* block = ON, none = OFF */
+	--Home-Direct-Messages-Header: flex;	/* flex = ON with create DM Button, block = ON, none = OFF */
+	--Home-Close-DM-Button: none;			/* block = ON, none = OFF */
+	--Text-Channels-Capital-Letter: none;	/* uppercase, none */
 }
 
 :root {
