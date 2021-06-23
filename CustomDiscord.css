@@ -3,37 +3,59 @@
 /*    opacity: 0.96;*/
 /*}*/
 
-/* Settings for github.com/KillYoy/DiscordNight theme as of v0.9.0 */
+/* Settings for github.com/KillYoy/DiscordNight theme as of v0.9.2 */
 :root {
-	--User-List-Width: 250px;				/* 200px, Discord default = 240px */
-	--User-Popout-Width: 265px;				/* 210px, Discord default = 250px */
-	--Channel-List-Width: 235px;			/* 196px, Discord default = 240px */
-	--Channel-Invite-Edit-Button: none;		/* flex = ON, none = OFF */
-	--Channel-Category-Invite-Button: none;	/* flex = ON, none = OFF */
-	--Search-List-Width: 700px;				/* 480px, Discord default = 418px */
-	--Titlebar-Help-Icon: none;				/* flex = ON, none = OFF */
-	--Chatbox-Gift-Button: none;			/* flex = ON, none = OFF */
-	--Chatbox-GIF-Button: flex;				/* flex = ON, none = OFF */
-	--Chatbox-Stickers-Button: flex;		/* flex = ON, none = OFF */
-	--Chat-Emoji-Size: 1.75rem;				/* 1.75rem, Discord default = 1.375rem */
-	--Chat-Emoji-Large-Size: 4.5rem;		/* 2rem, Discord default = 3rem */
-	--Voice-Noise-Suppression: flex;		/* flex = ON, none = OFF */
-	--Embed-Remove-Button: flex;			/* flex = ON, none = OFF */
-	--Context-Menu-Emoji-Toolbar: none;		/* flex = ON, none = OFF */
-	--Home-Store-Button: none;				/* block = ON, none = OFF */
-	--Home-Direct-Messages-Header: flex;	/* flex = ON with create DM Button, block = ON, none = OFF */
-	--Home-Close-DM-Button: none;			/* block = ON, none = OFF */
+	--Settings-Theme-Version: "DiscordNight v0.9.2";
+	--User-List-Width: 250px;					/* 200px, Discord default = 240px */
+	--User-Popout-Width: 265px;					/* 220px, Discord default = 300px */
+	--Channel-List-Width: 235px;				/* 196px, Discord default = 240px */
+	--Channel-Invite-Edit-Button: none;			/* flex = ON, none = OFF */
+	--Channel-Category-Invite-Button: none;		/* flex = ON, none = OFF */
+	--Search-List-Width: 700px;					/* 488px, Discord default = 418px */
+	--Inbox-List-Width: 600px;					/* 522px, Discord default = 480px */
+	--Titlebar-Help-Icon: none;					/* flex = ON, none = OFF */
+	--Emoji-Menu-Height: 618px;					/* 618px or 498px, Discord default = 444px */
+	--Chatbox-Gift-Button: none;				/* flex = ON, none = OFF */
+	--Chatbox-GIF-Button: flex;					/* flex = ON, none = OFF */
+	--Chatbox-Stickers-Button: flex;			/* flex = ON, none = OFF */
+	--Chat-Emoji-Size: 1.75rem;					/* 1.75rem, Discord default = 1.375rem */
+	--Chat-Emoji-Large-Size: 4.5rem;				/* 2rem, Discord default = 3rem */
+	--Voice-Noise-Suppression: flex;			/* flex = ON, none = OFF */
+	--Embed-Remove-Button: flex;				/* flex = ON, none = OFF */
+	--Context-Menu-Emoji-Toolbar: none;			/* flex = ON, none = OFF */
+	--Home-Store-Button: block;					/* block = ON, none = OFF */
+	--Home-Stages-Button: block;					/* block = ON, none = OFF */
+	--Home-Direct-Messages-Header: flex;		/* flex = ON with create DM Button, block = ON, none = OFF */
+	--Home-Close-DM-Button: none;				/* block = ON, none = OFF */
 	--Text-Channels-Capital-Letter: none;	/* uppercase, none */
 }
 
 :root {
-    --background-primary: #000000;
-    --bdfdb-blurple: #3A71C1;
-    --blurple: #3A71C1;
-    --bd-blue: #3A71C1;
-    --bd-blue-hover: #4585D8;
-    --bd-blue-active: #3268B7;
+	--bdfdb-blurple: #3A71C1;								/* #7289DA */
+	--blurple: #3A71C1;										/* #7289DA */
+	--bd-blue: #3A71C1;
+	--bd-blue-hover: #4585D8;
+	--bd-blue-active: #3268B7;
+	--control-brand-foreground: #3A71C1 !important;			/* #A5B3E7 */
+	--brand-experiment: #3A71C1 !important;					/* #5865F2 */
+	--background-primary: #111111;
+	--background-mentioned: rgba(250, 166, 26, 0.05);		/* rgba(250, 166, 26, 0.05) */
+	--background-mentioned-hover: rgba(250, 166, 26, 0.08);	/* rgba(250, 166, 26, 0.08) */
+	--background-mentioned-border: rgba(250, 166, 26, 1);	/* rgba(250, 166, 26, 1) */
+	--text-positive: #43B581;								/* #4FDC7B */
+	--text-warning: #FAA61A;								/* #FAA61A */
+	--text-danger: #F04747;									/* #ED4245 */
+	--info-positive-foreground: #43B581;					/* #3BA55C */
+	--info-positive-background: rgba(67,181,129,0.1);		/* rgba(59,165,92,0.1) */
+	--info-warning-background: rgba(250,166,26,0.1);		/* rgba(250,166,26,0.1) */
+	--info-warning-foreground: #FAA61A;						/* #FAA61A */
+	--info-danger-background: rgba(240,71,71,0.1);			/* rgba(237,66,69,0.1) */
+	--info-danger-foreground: #F04747;						/* #ED4245 */
+	--status-positive-background: #43B581;					/* #3BA55C */
+	--status-warning-background: #FAA61A;					/* #FAA61A */
+	--status-danger-background: #F04747;					/* #ED4245 */
 }
+
 
 /* Hover and popout like RadialStatus */
 .da-container:hover>.da-layout>.da-avatar>.da-wrapper>svg>rect, .da-selected>.da-layout>.da-avatar>.da-wrapper>svg>rect {
