@@ -11,7 +11,7 @@
 	--Channel-List-Width: 235px;				/* 196px, Discord default = 240px */
 	--Channel-Invite-Edit-Button: none;			/* flex = ON, none = OFF */
 	--Channel-Category-Invite-Button: none;		/* flex = ON, none = OFF */
-	--Search-List-Width: 700px;					/* 488px, Discord default = 418px */
+	--Search-List-Width: 620px;					/* 488px, Discord default = 418px */
 	--Inbox-List-Width: 600px;					/* 522px, Discord default = 480px */
 	--Titlebar-Help-Icon: none;					/* flex = ON, none = OFF */
 	--Emoji-Menu-Height: 618px;					/* 618px or 498px, Discord default = 444px */
