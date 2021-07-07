@@ -6,9 +6,9 @@
 /* Settings for github.com/KillYoy/DiscordNight theme as of v0.9.3 */
 :root {
 	--Settings-Theme-Version: "DiscordNight v0.9.3";
-	--User-List-Width: 250px;					/* 200px, Discord default = 240px */
-	--User-Popout-Width: 265px;					/* 236px, Discord default = 300px */
-	--Channel-List-Width: 235px;				/* 196px, Discord default = 240px */
+	--User-List-Width: 275px;					/* 200px, Discord default = 240px */
+	--User-Popout-Width: 350px;					/* 236px, Discord default = 300px */
+	--Channel-List-Width: 250px;				/* 196px, Discord default = 240px */
 	--Channel-Invite-Edit-Button: none;			/* flex = ON, none = OFF */
 	--Channel-Category-Invite-Button: none;		/* flex = ON, none = OFF */
 	--Search-List-Width: 620px;					/* 488px, Discord default = 418px */
