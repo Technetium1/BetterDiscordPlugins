@@ -1,4 +1,14 @@
-//META{"name":"Hack Font","description":"Font replacement for BetterDiscord","author":"Tech#0420","version":"0.2","authorId":"185474680600133632"}*//{}
+/**
+ * @name Hack Font
+ * @description Font replacement for BetterDiscord
+ * @author Tech#0420
+ * @authorLink https://github.com/Technetium1
+ * @authorId 185474680600133632
+ * @version 0.3
+ * @updateUrl https://github.com/Technetium1/BetterDiscordPlugins/raw/master/HackFont.theme.css
+ * @source https://github.com/Technetium1/BetterDiscordPlugins/blob/master/HackFont.theme.css
+ * @website https://github.com/Technetium1/BetterDiscordPlugins
+ */
 
 @import url('https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css');
 * {

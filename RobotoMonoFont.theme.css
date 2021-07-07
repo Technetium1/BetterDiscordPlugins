@@ -1,4 +1,14 @@
-//META{"name":"Roboto Mono Font","description":"Font replacement for BetterDiscord","author":"Tech#0420","version":"0.2","authorId":"185474680600133632"}*//{}
+/**
+ * @name Roboto Mono Font
+ * @description Font replacement for BetterDiscord
+ * @author Tech#0420
+ * @authorLink https://github.com/Technetium1
+ * @authorId 185474680600133632
+ * @version 0.3
+ * @updateUrl https://github.com/Technetium1/BetterDiscordPlugins/raw/master/RobotoMonoFont.theme.css
+ * @source https://github.com/Technetium1/BetterDiscordPlugins/blob/master/RobotoMonoFont.theme.css
+ * @website https://github.com/Technetium1/BetterDiscordPlugins
+ */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 * {
