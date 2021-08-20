@@ -3,6 +3,7 @@
 /*    opacity: 0.96;*/
 /*}*/
 
+
 /* Channels, DM Channels, User List */
 .container-1taM1r,
 .sidebar-2K8pFh,
@@ -19,47 +20,6 @@
 /* Serverlist */
 .guilds-1SWlCJ {
 	width: 65px;
-}
-
-/* Hover and popout like RadialStatus */
-.da-container:hover>.da-layout>.da-avatar>.da-wrapper>svg>rect, .da-selected>.da-layout>.da-avatar>.da-wrapper>svg>rect {
-    z-index: 2000;
-    width: 68px;
-    height: 68px;
-    x: -14;
-    y: -18;
-    mask: url(#svg-mask-status-offline);
-}
-
-.da-container:hover>.da-layout>.da-avatar>.da-wrapper>svg>svg>rect, .da-selected>.da-layout>.da-avatar>.da-wrapper>svg>svg>rect {
-    z-index: 2000;
-    width: 52px;
-    height: 32px;
-    x: 0;
-    y: 0;
-    mask: url(#svg-mask-status-offline);
-}
-
-.da-container:hover>.da-layout>.da-avatar>.da-wrapper, .da-selected>.da-layout>.da-avatar>.da-wrapper {
-    height: 40px !important;
-}
-
-.da-container:hover>.da-layout>.da-avatar>.da-wrapper>svg, .da-selected>.da-layout>.da-avatar>.da-wrapper>svg {
-    mask: url(#svg-mask-avatar-status-round-32);
-    transform: scale(1.1);
-    border-radius: 100px;
-    width: 38px;
-    height: 38px;
-}
-
-.da-container:hover>.da-layout>.da-avatar>.da-wrapper>svg>foreignObject, .da-selected>.da-layout>.da-avatar>.da-wrapper>svg>foreignObject {
-    mask: unset !important;
-}
-
-.da-container:hover>.da-layout>.da-avatar>.da-wrapper>svg>foreignObject>img, .da-selected>.da-layout>.da-avatar>.da-wrapper>svg>foreignObject>img {
-    position: relative;
-    left: 3px;
-    border-radius: 100px;
 }
 
 /* underline roles in memberlist & DMs */
