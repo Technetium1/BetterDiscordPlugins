@@ -3,6 +3,10 @@
 /*    opacity: 0.96;*/
 /*}*/
 
+/* Server Sidebar */
+.guilds-1SWlCJ {
+    width: 66px !important;
+}
 
 /* Channels, DM Channels, User List */
 .container-1taM1r,
@@ -17,10 +21,19 @@
 	max-width: 290px;
 }
 
+/* MemberCount */
+#MemberCount > h2 {
+    margin-top: 1px;
+    font-size: 13px;
+    padding-top: 16px;
+}
+
 /* ServerCount */
 .label-2wRs_g,
 .serverCount-FsTTs1 {
-    font-size: 8px;
+    font-size: 6.5px;
+    margin-bottom: 1px;
+    margin-top: 1px;
 }
 
 /* Serverlist */
