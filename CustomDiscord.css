@@ -28,9 +28,14 @@
 
 /* MemberCount */
 #MemberCount > h2 {
-    margin-top: 1px;
-    font-size: 13px;
+    margin-top: 5px;
+    font-size: 14px;
     padding-top: 16px;
+}
+
+/* MemberCount Border*/
+#MemberCount {
+    z-index: 0 !important;
 }
 
 /* ServerCount */
