@@ -1,16 +1,28 @@
-/*  Make Transparent */
+/* Make Transparent */
 /*:root {*/
 /*    opacity: 0.96;*/
 /*}*/
+
+/* Override secondary color for connection/status panel */
+.panels-j1Uci_ {
+    background-color: #000000 !important;
+}
+
+/* Override Memberlist Colors */
+.members-1998pB, .members-1998pB > div,
+.container-2wlB3z {
+    background-color: var(--background-base) !important;
+}
 
 /* Unflip Video */
 .mirror-1Z13AJ {
     transform: scaleX(1) !important;
 }
 
-/* Server Sidebar */
-.guilds-1SWlCJ {
+/* Server Sidebar / Guildlist */
+.guilds-1SWlCJ, .wrapper-3NnKdC {
     width: 66px !important;
+    background-color: #000000 !important;
 }
 
 /* Channels, DM Channels, User List */
@@ -27,10 +39,12 @@
 }
 
 /* MemberCount */
-#MemberCount > h2 {
+#MemberCount > h2,
+#MemberCount {
     margin-top: 5px;
     font-size: 14px;
     padding-top: 16px;
+    background-color: var(--background-base) !important;
 }
 
 /* MemberCount Border*/
