@@ -3,6 +3,9 @@
 /*    opacity: 0.96;*/
 /*}*/
 
+/* Colors edited to match AMOLED-Cord theme
+github.com/LuckFire/amoled-cord */
+
 /* Override secondary color for connection/status panel */
 .panels-j1Uci_ {
     background-color: #000000 !important;
@@ -19,8 +22,10 @@
     transform: scaleX(1) !important;
 }
 
-/* Server Sidebar / Guildlist */
-.guilds-1SWlCJ, .wrapper-3NnKdC {
+/* Servers Sidebar / Guildlist */
+.guilds-1SWlCJ,
+.wrapper-3NnKdC,
+.scroller-1Bvpku {
     width: 66px !important;
     background-color: #000000 !important;
 }
@@ -58,11 +63,6 @@
     font-size: 6.5px;
     margin-bottom: 1px;
     margin-top: 1px;
-}
-
-/* Serverlist */
-.guilds-1SWlCJ {
-	width: 65px;
 }
 
 /* underline roles in memberlist & DMs */
