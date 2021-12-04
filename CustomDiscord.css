@@ -20,14 +20,14 @@ github.com/LuckFire/amoled-cord */
 
 /* Override Memberlist Colors to match AMOLED-Cord theme */
 .members-1998pB,
-.members-1998pB > div,
+.members-1998pB>div,
 .container-2wlB3z {
     background-color: var(--background-base) !important;
 }
 
 /* MemberCount 
 Color to match AMOLED-Cord theme */
-#MemberCount > h2,
+#MemberCount>h2,
 #MemberCount {
     margin-top: 5px;
     font-size: 14px;
@@ -51,13 +51,13 @@ Colored to match AMOLED-Cord theme */
 .sidebar-2K8pFh,
 .members-1998pB,
 .bannerImg-2NHyzX {
-	width: 290px;
+    width: 290px;
 }
 
 /* Match width of Userlist & DM Userlist content */
 .member-3-YXUe,
 .channel-2QD9_O {
-	max-width: 290px;
+    max-width: 290px;
 }
 
 /* underline roles in memberlist & DMs */
