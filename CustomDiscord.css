@@ -30,10 +30,11 @@ github.com/LuckFire/amoled-cord */
     background-color: #000000 !important;
 }
 
-/* Channels, DM Channels, User List */
+/* Channels, DM Channels, User List, Server Banner */
 .container-1taM1r,
 .sidebar-2K8pFh,
-.members-1998pB {
+.members-1998pB,
+.bannerImg-2NHyzX {
 	width: 290px;
 }
 
