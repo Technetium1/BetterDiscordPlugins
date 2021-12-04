@@ -3,26 +3,42 @@
 /*    opacity: 0.96;*/
 /*}*/
 
-/* Colors edited to match AMOLED-Cord theme
+/* Unflip Video */
+.mirror-1Z13AJ {
+    transform: scaleX(1) !important;
+}
+
+/* ---------------------------------------------------- */
+/* Any colors edited to match AMOLED-Cord theme
 github.com/LuckFire/amoled-cord */
+/* ---------------------------------------------------- */
 
 /* Override secondary color for connection/status panel */
 .panels-j1Uci_ {
     background-color: #000000 !important;
 }
 
-/* Override Memberlist Colors */
-.members-1998pB, .members-1998pB > div,
+/* Override Memberlist Colors to match AMOLED-Cord theme */
+.members-1998pB,
+.members-1998pB > div,
 .container-2wlB3z {
     background-color: var(--background-base) !important;
 }
 
-/* Unflip Video */
-.mirror-1Z13AJ {
-    transform: scaleX(1) !important;
+/* MemberCount 
+Color to match AMOLED-Cord theme */
+#MemberCount > h2,
+#MemberCount {
+    margin-top: 5px;
+    font-size: 14px;
+    padding-top: 16px;
+    background-color: var(--background-base) !important;
 }
 
-/* Servers Sidebar / Guildlist */
+/* ---------------------------------------------------- */
+
+/* Servers Sidebar / Guildlist size
+Colored to match AMOLED-Cord theme */
 .guilds-1SWlCJ,
 .wrapper-3NnKdC,
 .scroller-1Bvpku {
@@ -44,13 +60,42 @@ github.com/LuckFire/amoled-cord */
 	max-width: 290px;
 }
 
-/* MemberCount */
-#MemberCount > h2,
-#MemberCount {
-    margin-top: 5px;
-    font-size: 14px;
-    padding-top: 16px;
-    background-color: var(--background-base) !important;
+/* underline roles in memberlist & DMs */
+.members-1998pB .membersGroup-v9BXpm,
+.private-channels header {
+    text-align: center;
+    overflow: visible;
+    margin-bottom: 10px;
+}
+
+.members-1998pB .membersGroup-v9BXpm::after,
+.private-channels header::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    border-bottom: 2px solid white;
+}
+
+.private-channels header::after {
+    padding-bottom: 10px;
+}
+
+/* Add white underline labels in channellist */
+.containerDefault-3tr_sE {
+    padding-top: 1px;
+    padding-right: 8px;
+    padding-left: 15px;
+    padding: 0 0 2px 0;
+    height: auto;
+    margin: 2px 5px 2px 5px;
+    border-bottom: 2px solid white;
+}
+
+/* Center channel names and push slightly left */
+.name-3l27Hl {
+    text-align: center;
+    padding-right: 10px;
 }
 
 /* MemberCount Border*/
@@ -64,40 +109,4 @@ github.com/LuckFire/amoled-cord */
     font-size: 6.5px;
     margin-bottom: 1px;
     margin-top: 1px;
-}
-
-/* underline roles in memberlist & DMs */
-.members-1998pB .membersGroup-v9BXpm, .private-channels header {
-    text-align: center;
-    overflow: visible;
-    margin-bottom: 10px;
-}
-
-.members-1998pB .membersGroup-v9BXpm::after, .private-channels header::after {
-    content: "";
-    display: block;
-    height: 1px;
-    width: 100%;
-    border-bottom: 2px solid white;
-}
-
-.private-channels header::after {
-    padding-bottom: 10px;
-}
-
-/* underline labels in channellist */
-.containerDefault-3tr_sE {
-    padding-top: 1px;
-    padding-right: 8px;
-    padding-left: 15px;
-    padding: 0 0 2px 0;
-    height: auto;
-    margin: 2px 5px 2px 5px;
-    border-bottom: 2px solid white;
-}
-
-/* center channel names and push slightly left */
-.name-3l27Hl {
-    text-align: center;
-    padding-right: 20px;
 }
