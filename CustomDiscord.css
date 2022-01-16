@@ -19,81 +19,105 @@ github.com/LuckFire/amoled-cord */
 }
 
 /* Override Memberlist Colors to match AMOLED-Cord theme */
-.members-1998pB,
-.members-1998pB>div,
-.container-2wlB3z {
+.members-3WRCEx,
+.members-3WRCEx>div,
+.container-2o3qEW {
     background-color: var(--background-base) !important;
 }
 
-/* MemberCount 
-Color to match AMOLED-Cord theme */
+/* MemberCount Color to match AMOLED-Cord theme */
 #MemberCount>h2,
 #MemberCount {
-    margin-top: 5px;
-    font-size: 14px;
-    padding-top: 16px;
+    margin-top: 1px;
+    font-size: 12px;
+    padding-top: 9px;
     background-color: var(--background-base) !important;
+    /*z-index: 1000 !important;*/
 }
 
 /* ---------------------------------------------------- */
 
 /* Servers Sidebar / Guildlist size
 Colored to match AMOLED-Cord theme */
-.guilds-1SWlCJ,
-.wrapper-3NnKdC,
-.scroller-1Bvpku {
-    width: 66px !important;
+.guilds-2JjMmN,
+.wrapper-1_HaEi {
+    width: 68px !important;
     background-color: #000000 !important;
 }
 
-/* Channels, DM Channels, User List, Server Banner */
-.container-1taM1r,
-.sidebar-2K8pFh,
-.members-1998pB,
-.bannerImg-2NHyzX {
-    width: 290px;
+/* Server Channels, Server Banner, DM Channels */
+.sidebar-1tnWFu,
+.bannerImg-2PzH6z {
+    width: 280px;
 }
 
-/* Match width of Userlist & DM Userlist content */
-.member-3-YXUe,
-.channel-2QD9_O {
-    max-width: 290px;
+/* Member List width */
+.layout-1qmrhw {
+    max-width: 300px;
 }
 
-/* underline roles in memberlist & DMs */
-.members-1998pB .membersGroup-v9BXpm,
-.private-channels header {
+/* Remove padding from memberlist */
+.members-3WRCEx {
+    /*width: 240px;*/
+    padding: 0px 0px 0px 0px !important;
+}
+
+/* Match removed padding for the userlist */
+.membersWrap-3NUR2t.hasCounter .members-3WRCEx {
+    margin-top: 4px !important;
+}
+
+/* Match removed padding for group names */
+.membersGroup-2eiWxl {
+    padding: 20px ​0px 0px 0px !important;
+    /*height: 20px;*/
+}
+
+/* Set minimum width for memberlist flex */
+.membersWrap-3NUR2t {
+    min-width: 100px;
+}
+
+/* Match width of DM Memberlist content */
+.channel-1Shao0 {
+    max-width: 290px !important;
+}
+
+/* Underline roles in Memberlist & DMs */
+.membersGroup-2eiWxl,
+.headerText-1qIDDT {
     text-align: center;
     overflow: visible;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
 }
 
-.members-1998pB .membersGroup-v9BXpm::after,
-.private-channels header::after {
+.membersGroup-2eiWxl::after,
+.headerText-1qIDDT::after {
     content: "";
     display: block;
-    height: 1px;
+    height: 2px;
     width: 100%;
     border-bottom: 2px solid white;
 }
 
-.private-channels header::after {
-    padding-bottom: 10px;
+/* Add padding below Direct Messages */
+.privateChannelsHeaderContainer-1UWASm {
+    height: 44px;
 }
 
 /* Add white underline labels in channellist */
-.containerDefault-3tr_sE {
+.containerDefault-3TQ5YN {
     padding-top: 1px;
     padding-right: 8px;
     padding-left: 15px;
-    padding: 0 0 2px 0;
+    padding: 0 0 2px 0px !important;
     height: auto;
-    margin: 2px 5px 2px 5px;
-    border-bottom: 2px solid white;
+    margin: 8px 0px 0px 0px;
+    border-bottom: 1px solid white;
 }
 
 /* Center channel names and push slightly left */
-.name-3l27Hl {
+.mainContent-uDGa6R {
     text-align: center;
     padding-right: 10px;
 }
