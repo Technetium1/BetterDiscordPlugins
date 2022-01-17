@@ -41,19 +41,20 @@ github.com/LuckFire/amoled-cord */
 Colored to match AMOLED-Cord theme */
 .guilds-2JjMmN,
 .wrapper-1_HaEi {
-    width: 68px !important;
+    width: 65px !important;
     background-color: #000000 !important;
 }
 
 /* Server Channels, Server Banner, DM Channels */
 .sidebar-1tnWFu,
 .bannerImg-2PzH6z {
-    width: 280px;
+    width: 260px;
 }
 
-/* Member List width */
-.layout-1qmrhw {
-    max-width: 300px;
+/* Member List content width */
+.layout-1qmrhw,
+.container-2o3qEW {
+    max-width: 220px;
 }
 
 /* Remove padding from memberlist */
@@ -122,12 +123,12 @@ Colored to match AMOLED-Cord theme */
     padding-right: 10px;
 }
 
-/* MemberCount Border*/
+/* MemberCount Plugin Border*/
 #MemberCount {
     z-index: 0 !important;
 }
 
-/* ServerCount */
+/* ServerCount Plugin*/
 .label-2wRs_g,
 .serverCount-FsTTs1 {
     font-size: 6.5px;
