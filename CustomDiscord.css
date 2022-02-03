@@ -8,6 +8,12 @@
     transform: scaleX(1) !important;
 }
 
+/* Disable top and bottom gradient on calls and PiP*/
+.gradientContainer-phMG8d,
+.videoControls-e2Ogs3 {
+    background: none !important;
+}
+
 /* ---------------------------------------------------- */
 /* Any colors edited to match AMOLED-Cord theme
 github.com/LuckFire/amoled-cord */
