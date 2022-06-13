@@ -16,4 +16,4 @@ Linux:
 ---
 
 ## Star the project to show your support!
-[![Stargazers repo roster for @Technetium1/ChocolateyUpdate](https://reporoster.com/stars/Technetium1/ChocolateyUpdate)](https://github.com/Technetium1/ChocolateyUpdate/stargazers)
+[![Stargazers repo roster for @Technetium1/BetterDiscordPlugins](https://reporoster.com/stars/Technetium1/BetterDiscordPlugins)](https://github.com/Technetium1/BetterDiscordPlugins/stargazers)
