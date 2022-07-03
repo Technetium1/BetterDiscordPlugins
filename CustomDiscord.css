@@ -3,8 +3,9 @@
 /*    opacity: 0.96;*/
 /*}*/
 
-/* Unflip Video */
-.mirror-2qdBDS {
+/* Unflip Video preview, PIP */
+.mirror-2qdBDS,
+.mirror-1zCRf6 {
     transform: scaleX(1) !important;
 }
 
