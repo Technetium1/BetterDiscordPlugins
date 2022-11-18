@@ -46,8 +46,8 @@ github.com/LuckFire/amoled-cord */
 
 /* Servers Sidebar / Guildlist size
 Colored to match AMOLED-Cord theme */
-.guilds-2JjMmN,
-.wrapper-1_HaEi {
+.wrapper-1_HaEi,
+.scroller-3X7KbA {
     width: 65px !important;
     background-color: #000000 !important;
 }
@@ -76,8 +76,8 @@ Colored to match AMOLED-Cord theme */
 }
 
 /* Match removed padding for group names */
-.membersGroup-2eiWxl {
-    padding: 20px ​0px 0px 0px !important;
+//.membersGroup-2eiWxl {
+//    padding: 20px ​0px 0px 0px !important;
     /*height: 20px;*/
 }
 
@@ -96,15 +96,14 @@ Colored to match AMOLED-Cord theme */
 .headerText-1qIDDT {
     text-align: center;
     overflow: visible;
-    margin-bottom: 1px;
+    margin-bottom: 8px;
 }
 
-.membersGroup-2eiWxl::after,
-.headerText-1qIDDT::after {
-    content: "";
+.membersGroup-2eiWxl,
+.headerText-1qIDDT {
     display: block;
-    height: 2px;
     width: 100%;
+    padding-bottom: 18px;
     border-bottom: 2px solid white;
 }
 
