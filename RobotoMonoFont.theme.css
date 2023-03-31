@@ -4,7 +4,7 @@
  * @author Tech#0420
  * @authorLink https://github.com/Technetium1
  * @authorId 185474680600133632
- * @version 0.3
+ * @version 0.4
  * @updateUrl https://github.com/Technetium1/BetterDiscordPlugins/raw/master/RobotoMonoFont.theme.css
  * @source https://github.com/Technetium1/BetterDiscordPlugins/blob/master/RobotoMonoFont.theme.css
  * @website https://github.com/Technetium1/BetterDiscordPlugins
@@ -12,5 +12,5 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 * {
-	font-family: 'Roboto Mono' !important;
+	font-family: 'Roboto Mono', monospace !important;
 }
