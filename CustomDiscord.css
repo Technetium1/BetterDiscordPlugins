@@ -3,6 +3,20 @@
 /*    opacity: 0.96;*/
 /*}*/
 
+/* Remove Transfer to console 
+.leftTrayIcon-3kMl25{
+    display: none;
+}*/
+
+/* fix missing fonts */
+* {
+    font-family: 'Hack NFM', Hack, 'RobotoMono NFM', 'RobotoMono', monospace !important;
+}
+
+:root {
+    --background-primary: #000000 !important;
+}
+
 /* Unflip Video preview, PIP */
 .mirror-2qdBDS,
 .mirror-1zCRf6 {
@@ -25,20 +39,13 @@ github.com/LuckFire/amoled-cord */
     background-color: #000000 !important;
 }
 
-/* Override Memberlist Colors to match AMOLED-Cord theme */
-.members-3WRCEx,
-.members-3WRCEx>div,
-.container-2o3qEW {
-    background-color: var(--background-base) !important;
-}
-
 /* MemberCount Color to match AMOLED-Cord theme */
 #MemberCount>h2,
 #MemberCount {
     margin-top: 1px;
     font-size: 12px;
     padding-top: 9px;
-    background-color: var(--background-base) !important;
+    /*background-color: var(--background-base) !important;*/
     /*z-index: 1000 !important;*/
 }
 
@@ -49,7 +56,7 @@ Colored to match AMOLED-Cord theme */
 .wrapper-1_HaEi,
 .scroller-3X7KbA {
     width: 65px !important;
-    background-color: #000000 !important;
+    /*background-color: #000000 !important;*/
 }
 
 /* Server Channels, Server Banner, DM Channels */
