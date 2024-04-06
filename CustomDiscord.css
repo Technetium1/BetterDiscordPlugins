@@ -24,8 +24,8 @@
 }
 
 /* Disable top and bottom gradient on calls and PiP*/
-.overlayContainer__83159,
-.videoControls_c6a04d {
+.gradientContainer_cdada6,
+.videoControls_a8ae2d {
     background: none !important;
 }
 
@@ -35,9 +35,9 @@ github.com/LuckFire/amoled-cord */
 /* ---------------------------------------------------- */
 
 /* Override secondary color for connection/status panel */
-.panels-j1Uci_ {
-    background-color: #000000 !important;
-}
+//.panels__58331 {
+//    background-color: #000000 !important;
+//}
 
 /* MemberCount Color to match AMOLED-Cord theme */
 #MemberCount>h2,
@@ -53,15 +53,15 @@ github.com/LuckFire/amoled-cord */
 
 /* Servers Sidebar / Guildlist size
 Colored to match AMOLED-Cord theme */
-.wrapper_a7e7a8,
-.scroller__3d071 {
+.wrapper__216eb,
+.scroller_de945b {
     width: 65px !important;
     /*background-color: #000000 !important;*/
 }
 
 /* Server Channels, Server Banner, DM Channels */
-.sidebar_ded4b5,
-.bannerImg_c85b7f {
+.sidebar_e031be,
+.bannerImg_fe5c1b {
     width: 260px;
 }
 
@@ -72,40 +72,28 @@ Colored to match AMOLED-Cord theme */
 }
 
 /* Remove padding from memberlist */
-.members__9f47b {
+.members__573eb {
     /*width: 240px;*/
     padding: 0px 0px 0px 0px !important;
 }
 
-/* Match removed padding for the userlist */
-//.membersWrap__90226.hasCounter .members-3WRCEx {
-//    margin-top: 4px !important;
-//}
-
-/* Match removed padding for group names */
-//.membersGroup-2eiWxl {
-//    padding: 20px ​0px 0px 0px !important;
-    /*height: 20px;*/
-}
-
 /* Set minimum width for memberlist flex */
-.membersWrap__90226 {
+.membersWrap__5ca6b {
     min-width: 100px;
 }
 
-/* Match width of DM Memberlist content */
-.channel-1Shao0 {
+/* Stop DM member list from flexing */
+.membersWrap__5ca6b {
+    flex-grow: 0;
+    flex-shrink: 0;
     max-width: 290px !important;
 }
 
 /* Underline roles in Memberlist & DMs */
-.membersGroup__85843 {
+.membersGroup_cad095 {
     text-align: center;
     overflow: visible;
     margin-bottom: 8px;
-}
-
-.membersGroup__85843 {
     display: block;
     width: 100%;
     padding-bottom: 18px;
@@ -113,12 +101,12 @@ Colored to match AMOLED-Cord theme */
 }
 
 /* Add padding below Direct Messages */
-.privateChannelsHeaderContainer_ddcec6 {
+.privateChannelsHeaderContainer_b22dc9 {
     height: 44px;
 }
 
 /* Add white underline labels in channellist */
-.containerDefault__23a29 {
+.containerDefault_e3b32b {
     padding-top: 1px;
     padding-right: 8px;
     padding-left: 15px;
@@ -128,8 +116,8 @@ Colored to match AMOLED-Cord theme */
     border-bottom: 1px solid white;
 }
 
-/* Center channel names and push slightly left */
-.mainContent_a0b319 {
+/* Center category names and push slightly left */
+.mainContent__2333c {
     text-align: center;
     padding-right: 10px;
 }
@@ -140,9 +128,9 @@ Colored to match AMOLED-Cord theme */
 }
 
 /* ServerCount Plugin*/
-.label-2wRs_g,
-.serverCount-FsTTs1 {
-    font-size: 6.5px;
-    margin-bottom: 1px;
-    margin-top: 1px;
+.label_2wRs_g {
+    font-size: 6px !important;
+    letter-spacing: 0.1em !important;
+    margin-bottom: 1px !important;
+    margin-top: 1px !important;
 }
