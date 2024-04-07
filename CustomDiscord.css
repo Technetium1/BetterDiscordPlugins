@@ -3,10 +3,11 @@
 /*    opacity: 0.96;*/
 /*}*/
 
-/* Remove Transfer to console 
-.leftTrayIcon-3kMl25{
+/* Remove Transfer to console, and bar to left */
+.leftTrayIcon_e01f72,
+.leftDivider__622f7 {
     display: none;
-}*/
+}
 
 /* fix missing fonts */
 * {
