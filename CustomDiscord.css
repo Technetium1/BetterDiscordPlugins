@@ -4,7 +4,7 @@
 /*}*/
 
 /* Remove Transfer to console, and bar to left */
-.leftTrayIcon_e01f72,
+button[aria-label="Transfer to Console"][type="button"],
 .leftDivider__622f7 {
     display: none;
 }
