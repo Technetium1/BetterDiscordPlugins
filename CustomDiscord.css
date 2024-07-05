@@ -5,7 +5,7 @@
 
 /* Remove Transfer to console, and bar to left */
 button[aria-label="Transfer to Console"][type="button"],
-.leftDivider__622f7 {
+.leftDivider_d8c748 {
     display: none;
 }
 
@@ -25,8 +25,8 @@ button[aria-label="Transfer to Console"][type="button"],
 }
 
 /* Disable top and bottom gradient on calls and PiP*/
-.gradientContainer_cdada6,
-.videoControls_a8ae2d {
+.gradientContainer_dd069c,
+.videoControls_cadaa5 {
     background: none !important;
 }
 
@@ -35,63 +35,48 @@ button[aria-label="Transfer to Console"][type="button"],
 github.com/LuckFire/amoled-cord */
 /* ---------------------------------------------------- */
 
-/* Override secondary color for connection/status panel */
-//.panels__58331 {
-//    background-color: #000000 !important;
-//}
-
-/* MemberCount Color to match AMOLED-Cord theme */
-#MemberCount>h2,
-#MemberCount {
-    margin-top: 1px;
-    font-size: 12px;
-    padding-top: 9px;
-    /*background-color: var(--background-base) !important;*/
-    /*z-index: 1000 !important;*/
-}
-
-/* ---------------------------------------------------- */
-
 /* Servers Sidebar / Guildlist size
 Colored to match AMOLED-Cord theme */
-.wrapper__216eb,
-.scroller_de945b {
+.wrapper_fea3ef,
+.scroller_fea3ef {
     width: 65px !important;
-    /*background-color: #000000 !important;*/
+    background-color: #000000 !important;
 }
 
 /* Server Channels, Server Banner, DM Channels */
-.sidebar_e031be,
-.bannerImg_fe5c1b {
-    width: 260px;
+.scroller_c43953,
+.bannerImage_fd6364:before {
+    width: 250px;
+    //background-color: #000000 !important;
 }
 
 /* Member List content width */
-.layout-1qmrhw,
-.container-2o3qEW {
-    max-width: 220px;
+.layout_e9f61e,
+.container_cbd271 {
+    min-width: 255px;
+    //max-width: 290px;
 }
 
 /* Remove padding from memberlist */
-.members__573eb {
+.members_cbd271 {
     /*width: 240px;*/
     padding: 0px 0px 0px 0px !important;
 }
 
 /* Set minimum width for memberlist flex */
-.membersWrap__5ca6b {
+.membersWrap_cbd271 {
     min-width: 100px;
 }
 
 /* Stop DM member list from flexing */
-.membersWrap__5ca6b {
+.membersWrap_cbd271 {
     flex-grow: 0;
     flex-shrink: 0;
     max-width: 290px !important;
 }
 
-/* Underline roles in Memberlist & DMs */
-.membersGroup_cad095 {
+/* Underline roles in Memberlist */
+.membersGroup_cbd271 {
     text-align: center;
     overflow: visible;
     margin-bottom: 8px;
@@ -101,13 +86,8 @@ Colored to match AMOLED-Cord theme */
     border-bottom: 2px solid white;
 }
 
-/* Add padding below Direct Messages */
-.privateChannelsHeaderContainer_b22dc9 {
-    height: 44px;
-}
-
 /* Add white underline labels in channellist */
-.containerDefault_e3b32b {
+.containerDefault_a08117 {
     padding-top: 1px;
     padding-right: 8px;
     padding-left: 15px;
@@ -118,18 +98,18 @@ Colored to match AMOLED-Cord theme */
 }
 
 /* Center category names and push slightly left */
-.mainContent__2333c {
+.mainContent_a08117 {
     text-align: center;
     padding-right: 10px;
 }
 
-/* MemberCount Plugin Border*/
+/* MemberCount Plugin */
 #MemberCount {
     z-index: 0 !important;
 }
 
 /* ServerCount Plugin*/
-.label_2wRs_g {
+.serverCount_FsTTs1 {
     font-size: 6px !important;
     letter-spacing: 0.1em !important;
     margin-bottom: 1px !important;
