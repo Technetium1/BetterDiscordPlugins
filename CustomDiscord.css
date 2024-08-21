@@ -30,6 +30,21 @@ button[aria-label="Transfer to Console"][type="button"],
     background: none !important;
 }
 
+/* Partially hide public servers & gradient */
+.container_aa1bff,
+.gradient_aa1bff {
+    background-color: #00000000 !important;
+    max-height: 20px !important;
+    opacity: 0;
+}
+
+/* Make unread button smaller  */
+.bar_edf32f {
+    height: 15px;
+    line-height: 30px;
+    font-size: 12;
+}
+
 /* ---------------------------------------------------- */
 /* Any colors edited to match AMOLED-Cord theme
 github.com/LuckFire/amoled-cord */
