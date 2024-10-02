@@ -31,7 +31,7 @@ button[aria-label="Transfer to Console"][type="button"],
 }
 
 /* Partially hide public servers & gradient */
-.container_aa1bff,
+.footer_aa1bff,
 .gradient_aa1bff {
     background-color: #00000000 !important;
     max-height: 20px !important;
