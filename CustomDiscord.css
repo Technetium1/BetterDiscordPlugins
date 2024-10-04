@@ -11,7 +11,7 @@ button[aria-label="Transfer to Console"][type="button"],
 
 /* fix missing fonts */
 * {
-    font-family: 'Hack NFM', Hack, 'RobotoMono NFM', 'RobotoMono Nerd Font Mono', 'RobotoMono', monospace !important;
+    font-family: 'Hack Nerd Font Mono', Hack, 'RobotoMono NFM', 'RobotoMono Nerd Font Mono', 'RobotoMono', monospace !important;
 }
 
 :root {
