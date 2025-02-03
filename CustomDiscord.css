@@ -11,7 +11,7 @@ button[aria-label="Transfer to Console"][type="button"],
 
 /* fix missing fonts */
 * {
-    font-family: 'Hack Nerd Font Mono', Hack, 'RobotoMono NFM', 'RobotoMono Nerd Font Mono', 'RobotoMono', monospace !important;
+    font-family: 'Hack Nerd Font Mono', Hack, 'RobotoMono Nerd Font Mono', 'RobotoMono NFM', 'RobotoMono', monospace !important;
 }
 
 :root {
@@ -25,21 +25,21 @@ button[aria-label="Transfer to Console"][type="button"],
 }
 
 /* Disable top and bottom gradient on calls and PiP*/
-.gradientContainer_dd069c,
-.videoControls_cadaa5 {
+.gradientContainer_bfe55a,
+.videoControls_e4cb9a {
     background: none !important;
 }
 
 /* Partially hide public servers & gradient */
-.footer_aa1bff,
-.gradient_aa1bff {
+.footer__214dc,
+.gradient__214dc {
     background-color: #00000000 !important;
     max-height: 20px !important;
     opacity: 0;
 }
 
 /* Make unread button smaller  */
-.bar_edf32f {
+.bar__3b95d {
     height: 15px;
     line-height: 30px;
     font-size: 12;
@@ -53,46 +53,45 @@ github.com/LuckFire/amoled-cord */
 
 /* Servers Sidebar / Guildlist size
 Colored to match AMOLED-Cord theme */
-.wrapper_fea3ef,
-.scroller_fea3ef {
+.wrapper_ef3116,
+.scroller_ef3116 {
     width: 65px !important;
     background-color: #000000 !important;
 }
 
 /* Server Channels, Server Banner, DM Channels */
-.scroller_c43953,
-.bannerImage_fd6364:before {
+.scroller__629e4,
+.bannerImage_f37cb1:before {
     width: 250px;
     //background-color: #000000 !important;
 }
 
 /* Member List content width */
-.layout_e9f61e,
-.container_cbd271 {
+.container_c8ffbb {
     min-width: 255px;
     //max-width: 290px;
 }
 
 /* Remove padding from memberlist */
-.members_cbd271 {
+//.membersGroup_c8ffbb {
     /*width: 240px;*/
-    padding: 0px 0px 0px 0px !important;
-}
+//    padding: 0px 0px 0px 0px !important;
+//}
 
 /* Set minimum width for memberlist flex */
-.membersWrap_cbd271 {
-    min-width: 100px;
+.membersWrap_c8ffbb {
+    min-width: 120px;
 }
 
 /* Stop DM member list from flexing */
-.membersWrap_cbd271 {
-    flex-grow: 0;
-    flex-shrink: 0;
-    max-width: 290px !important;
-}
+//.membersGroup_c8ffbb {
+//    flex-grow: 0;
+//    flex-shrink: 0;
+//    max-width: 290px !important;
+//}
 
 /* Underline roles in Memberlist */
-.membersGroup_cbd271 {
+.membersGroup_c8ffbb {
     text-align: center;
     overflow: visible;
     margin-bottom: 8px;
@@ -103,7 +102,7 @@ Colored to match AMOLED-Cord theme */
 }
 
 /* Add white underline labels in channellist */
-.containerDefault_a08117 {
+.containerDefault__29444 {
     padding-top: 1px;
     padding-right: 8px;
     padding-left: 15px;
@@ -114,20 +113,16 @@ Colored to match AMOLED-Cord theme */
 }
 
 /* Center category names and push slightly left */
-.mainContent_a08117 {
+.mainContent__29444 {
     text-align: center;
     padding-right: 10px;
 }
 
-/* MemberCount Plugin */
-#MemberCount {
-    z-index: 0 !important;
-}
-
 /* ServerCount Plugin*/
 .serverCount_FsTTs1 {
+    font-weight: 1000 !important;
     font-size: 6px !important;
     letter-spacing: 0.1em !important;
-    margin-bottom: 1px !important;
-    margin-top: 1px !important;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
 }
