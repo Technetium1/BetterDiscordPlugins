@@ -19,8 +19,8 @@ button[aria-label="Transfer to Console"][type="button"],
 }
 
 /* Unflip Video preview and PiP */
-.mirror_a5989d,
-.mirror__37f83 {
+.mirror__48b20,
+.mirror__948a4 {
     transform: scaleX(1) !important;
 }
 
