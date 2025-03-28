@@ -10,9 +10,16 @@
 
 :root {
     --background-primary: #000000 !important;
-    --background-secondary: #131313 !important;
+    --background-secondary: #040404 !important;
+    --background-tertiary: #040404 !important;
     --background-base-low: #000000 !important;
     --background-base-lower: #000000 !important;
+    --background-base-lowest: #000000 !important;
+    --interactive-normal: #FFFFFF !important;
+    //--bg-base-primary: #FF0000 !important;
+    //--bg-base-secondary: #FF0000 !important;
+    // New titlebar background color
+    --bg-base-tertiary: #000000 !important;
 }
 
 /* Fix titlebar size */
