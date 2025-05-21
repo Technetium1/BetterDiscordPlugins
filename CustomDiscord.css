@@ -15,9 +15,9 @@
     --background-base-low: #000000 !important;
     --background-base-lower: #000000 !important;
     --background-base-lowest: #000000 !important;
-    --interactive-normal: #FFFFFF !important;
-    //--bg-base-primary: #FF0000 !important;
-    //--bg-base-secondary: #FF0000 !important;
+    //--interactive-normal: #FFFFFF !important;
+    --bg-base-primary: #FF0000 !important;
+    --bg-base-secondary: #000000 !important;
     // New titlebar background color
     --bg-base-tertiary: #000000 !important;
 }
@@ -62,9 +62,11 @@ Colored to match AMOLED-Cord theme */
 
 /* Server Channels, Server Banner, DM Channels */
 .scroller__629e4,
-.bannerImage_f37cb1:before {
+.scroller__99e7c,
+.panels_c48ade,
+.sidebar_c48ade:after {
     width: flex;
-    //background-color: #000000 !important;
+    background-color: #000000 !important;
 }
 
 /* Member List content width */
@@ -121,7 +123,7 @@ Colored to match AMOLED-Cord theme */
 }
 
 /* ServerCount Plugin*/
-.serverCount_FsTTs1 {
+.serverCount_1dcf05 {
     font-weight: 1000 !important;
     font-size: 6px !important;
     letter-spacing: 0.1em !important;
